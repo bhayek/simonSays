@@ -1,0 +1,97 @@
+.gameWrap {
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 500px;
+}
+
+.gameBoard {
+    position: relative;
+    /* top: 100px;
+    left: 100px; */
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border-radius: 8%;
+    z-index: -10;
+    position: relative;
+    top: 0px;
+    transform: rotate(-45deg)
+}
+
+.colors {
+    position: relative;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      /* height: 0; */
+      width: 280px;
+      margin: auto;
+      float: left;
+      position: relative;
+      cursor: pointer;
+  }
+
+.outterButtonMask {
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid gray; */
+    overflow:hidden;
+    border-radius: 10%;
+    transform:scale(40%);
+    margin-top: 100px;
+    position: relative;
+}
+
+.innerButton {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: green;
+    transform:rotate(45deg);
+    cursor: pointer;
+}
+/* -------- */
+
+.bluePosition {
+    position: relative;
+    left: 280px;
+    top: 20px;
+    transform:rotate(270deg);
+}
+.blueB {
+    background-color: blue;
+}
+/* -------- */
+
+.greenPosition {
+    position: relative;
+    left: 280px;
+    bottom: 20px;
+}
+.greenB {
+    background-color: green;
+}
+/* -------- */
+
+.yellowPosition {
+    position: relative;
+    left: 20px;
+    bottom: 320px;
+    transform:rotate(90deg);
+}
+.yellowB {
+    background-color: yellow;
+}
+/* -------- */
+
+.redPosition {
+    position: relative;
+    left: 20px;
+    bottom: 880px;
+    transform:rotate(180deg);
+}
+.redB {
+    background-color: red;
+}
